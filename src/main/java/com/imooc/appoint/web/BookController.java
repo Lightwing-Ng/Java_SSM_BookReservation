@@ -1,14 +1,14 @@
-package com.lightwing.reservation.web;
+package com.imooc.appoint.web;
 
-import com.lightwing.reservation.dto.AppointExecution;
-import com.lightwing.reservation.dto.Result;
-import com.lightwing.reservation.entiy.Appointment;
-import com.lightwing.reservation.entiy.Book;
-import com.lightwing.reservation.entiy.Student;
-import com.lightwing.reservation.enums.AppointStateEnum;
-import com.lightwing.reservation.exception.NoNumberException;
-import com.lightwing.reservation.exception.RepeatAppointException;
-import com.lightwing.reservation.service.BookService;
+import com.imooc.appoint.dto.AppointExecution;
+import com.imooc.appoint.dto.Result;
+import com.imooc.appoint.entiy.Appointment;
+import com.imooc.appoint.entiy.Book;
+import com.imooc.appoint.entiy.Student;
+import com.imooc.appoint.enums.AppointStateEnum;
+import com.imooc.appoint.service.BookService;
+import com.imooc.appoint.exception.NoNumberException;
+import com.imooc.appoint.exception.RepeatAppointException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

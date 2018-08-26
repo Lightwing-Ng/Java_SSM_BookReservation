@@ -1,6 +1,6 @@
-package com.lightwing.reservation.dao;
+package com.imooc.appoint.dao;
 
-import com.lightwing.reservation.entiy.Student;
+import com.imooc.appoint.entiy.Student;
 import org.apache.ibatis.annotations.Param;
 
 public interface StudentDao {

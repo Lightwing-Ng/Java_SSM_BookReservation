@@ -1,4 +1,4 @@
-package com.lightwing.reservation.exception;
+package com.imooc.appoint.exception;
 
 // 预约义务异常
 public class AppointException extends RuntimeException {

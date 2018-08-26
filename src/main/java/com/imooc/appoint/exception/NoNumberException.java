@@ -1,4 +1,4 @@
-package com.lightwing.reservation.exception;
+package com.imooc.appoint.exception;
 
 // 库存不足异常
 public class NoNumberException extends RuntimeException {

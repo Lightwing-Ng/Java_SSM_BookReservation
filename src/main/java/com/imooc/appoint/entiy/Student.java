@@ -1,4 +1,4 @@
-package com.lightwing.reservation.entiy;
+package com.imooc.appoint.entiy;
 
 public class Student {
     private Long studentId;

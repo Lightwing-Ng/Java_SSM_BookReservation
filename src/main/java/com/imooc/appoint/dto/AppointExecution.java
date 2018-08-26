@@ -1,6 +1,6 @@
-package com.lightwing.reservation.dto;
+package com.imooc.appoint.dto;
 
-import com.lightwing.reservation.enums.AppointStateEnum;
+import com.imooc.appoint.enums.AppointStateEnum;
 
 public class AppointExecution {
     // 图书ID

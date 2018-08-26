@@ -1,4 +1,4 @@
-package com.lightwing.reservation.enums;
+package com.imooc.appoint.enums;
 
 // 使用枚举表述常量数据字典,我们先定义几个预约图书操作返回码的数据字典，也就是我们要返回给客户端的信息。
 public enum AppointStateEnum {

@@ -1,4 +1,4 @@
-package com.lightwing.reservation.exception;
+package com.imooc.appoint.exception;
 
 // 重复预约异常
 public class RepeatAppointException extends RuntimeException {

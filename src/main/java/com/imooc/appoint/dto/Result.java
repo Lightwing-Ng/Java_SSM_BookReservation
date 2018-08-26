@@ -1,4 +1,4 @@
-package com.lightwing.reservation.dto;
+package com.imooc.appoint.dto;
 
 /**
  * 封装json对象，所有返回结果都使用它

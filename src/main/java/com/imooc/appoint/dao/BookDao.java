@@ -1,6 +1,6 @@
-package com.lightwing.reservation.dao;
+package com.imooc.appoint.dao;
 
-import com.lightwing.reservation.entiy.Book;
+import com.imooc.appoint.entiy.Book;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

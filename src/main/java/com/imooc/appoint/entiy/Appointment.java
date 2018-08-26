@@ -1,4 +1,4 @@
-package com.lightwing.reservation.entiy;
+package com.imooc.appoint.entiy;
 
 import java.util.Date;
 

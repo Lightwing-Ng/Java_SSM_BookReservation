@@ -1,9 +1,9 @@
-package com.lightwing.reservation.service;
+package com.imooc.appoint.service;
 
-import com.lightwing.reservation.dto.AppointExecution;
-import com.lightwing.reservation.entiy.Appointment;
-import com.lightwing.reservation.entiy.Book;
-import com.lightwing.reservation.entiy.Student;
+import com.imooc.appoint.dto.AppointExecution;
+import com.imooc.appoint.entiy.Appointment;
+import com.imooc.appoint.entiy.Book;
+import com.imooc.appoint.entiy.Student;
 
 import java.util.List;
 
