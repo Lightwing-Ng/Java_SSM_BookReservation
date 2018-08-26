@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.lightwing.reservation.dao.BookDao">
-    <select id="queryById" parameterType="long" resultType="com.lightwing.reservation.entiy.Book">
+<mapper namespace="com.imooc.appoint.dao.BookDao">
+    <select id="queryById" parameterType="long" resultType="com.imooc.appoint.entiy.Book">
         SELECT
             `book_id`,
             `name,
@@ -15,8 +15,8 @@
             `book_id` = #{ bookId }
     </select>
 
-    <select id="querySome" parameterType="com.lightwing.reservation.entiy.Book"
-            resultType="com.lightwing.reservation.entiy.Book">
+    <select id="querySome" parameterType="com.imooc.appoint.entiy.Book"
+            resultType="com.imooc.appoint.entiy.Book">
         SELECT `book_id`, `name`, `introd`, `number` FROM `book`
         <where>
             <!-- <if test="name !=null and !&quot;&quot;.equals(name.trim())">  -->
@@ -25,7 +25,7 @@
         </where>
     </select>
 
-    <select id="queryAll" resultType="com.lightwing.reservation.entiy.Book">
+    <select id="queryAll" resultType="com.imooc.appoint.entiy.Book">
         SELECT
             `book_id`,
             `name`,
